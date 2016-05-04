@@ -45,7 +45,6 @@ Here is complete list of variables
 30. tBodyGyroJerk-std()-X               
 31. tBodyGyroJerk-std()-Y
 32. tBodyGyroJerk-std()-Z
-33. 
 33. tBodyAccMag-mean()                  
 34. tBodyAccMag-std()                
 35. tGravityAccMag-mean()             
@@ -65,8 +64,7 @@ Here is complete list of variables
 49. fBodyAcc-meanFreq()-X   
 50. fBodyAcc-meanFreq()-Y              
 51. fBodyAcc-meanFreq()-Z               
-52. fBodyAccJerk-mean()-X
-53. 
+52. fBodyAccJerk-mean()-X 
 53. fBodyAccJerk-mean()-Y          
 54. fBodyAccJerk-mean()-Z               
 55. fBodyAccJerk-std()-X              
