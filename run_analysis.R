@@ -159,7 +159,7 @@ meltedData  <- melt(meansNstdData, id=c("subject_id","activity_name"))
 tidyData    <- dcast(meltedData, subject_id+activity_name ~ variable, mean)
 dim(tidyData)
 # write the tidy data set to a file
-write.table(tidyData, "tidyData.txt", row.names=FALSE)
+write.table(tidyData, "tidyData.txt", row.names=FALSE , sep="\t")
 
 
 #########################################
